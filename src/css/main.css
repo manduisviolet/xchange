@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color .5s;
+  }
+
+  h1, p, a {
+      margin: 0;
+  }
+
+  textarea {
+      resize: none;
+  }
+
+header {
+    background-color: rgb(63, 81, 181);
+    border-bottom: 1px solid #000;
+    box-shadow: 0 0 3px 1px #000;
+}
+
+header > .container {
+    padding: 80px 0;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    background: url("../bg.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 130px;
+}
+
+main .date {
+    height: 175px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+main .date p {
+    background-color: rgb(108, 118, 255);
+    border-radius: 20px;
+    padding: 0 16px;
+}
+
+main .convert {
+    padding: 8px;
+    border: 1px solid #00a;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+main .convert h2 {
+    text-align: center;
+}
+
+main .convert select {
+    background: linear-gradient(180deg,  #fff 0%,  #fff 30%, rgb(200, 200, 203) 50%,  #fff 70%, #fff 100%);
+    border: 1px solid rgb(63, 81, 181);
+    text-align: center;
+}
+
+main .convert select:hover, main .convert i:hover {
+    cursor: pointer;
+}
+
+main .convert i {
+    font-size: 1.5em;
+    border-radius: 25px;
+    border: 3px solid rgb(63, 81, 181);
+    padding: 8px;
+}
+
+main .convert label {
+    color: rgb(71, 71, 71);
+    font-size: 1.4em;
+}
+
+main .convert input {
+    font-size: 1.2em;
+    border-radius: 15px;
+    border: 1px solid rgb(63, 81, 181);
+}
+
+main .convert button {
+    background-color: rgb(63, 81, 181);
+    padding: 12px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+main .convert_text .textarea {
+    padding: 8px;
+    border: 1px solid #00a;
+    border-radius: 20px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 1.3em;
+}
