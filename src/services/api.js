@@ -1,4 +1,4 @@
-export const URL_API = "http://apilayer.net/api/live?access_key=3c81786f9b3d2e267f40d08af97b97f2&currencies=usd,ils,eur,btc,thb";
+export const URL_API = "/json/money.json";
 
 
 export const doApiGet = async (_url) => {
